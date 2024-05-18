@@ -1,0 +1,19 @@
+name: student
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.2.4
+
+# Add regular dependencies here.
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+dependencies:
+  hive: ^2.2.3
